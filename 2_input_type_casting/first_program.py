@@ -2,7 +2,7 @@
 Greet the user
 Ask the user for their name
 ask user - using name - where they are travelling?
-Ask the user what uis the distance to <where they are travelling>?
+Ask the user what is the distance to <where they are travelling>?
 Ask the user for their car economy (R/Km)
 Ask the user for the price of fuel (R/L)
 Return the cost of the trip - output to the terminal
