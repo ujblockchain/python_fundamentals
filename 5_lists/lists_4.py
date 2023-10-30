@@ -9,7 +9,7 @@ print(my_list)
 my_list = [] # create an empty list
 
 for i in range(5):
-
+    # we use the insert method which is specific to the list data type
     my_list.insert(0, i)
 # this will create a reversed sequence of range(5)
 # range(5) - 0, 1, 2, 3, 4
