@@ -11,7 +11,16 @@ These errors are syntactically correct
 # print(result)
 
 # print(dir(locals()['__builtins__']))
-
+data_input = [1, 3, 5, 6, 7, 34, 0, 56, 7, 8]
+budget = 1000
+result_list = []
+for num in data_input:
+    try:
+        result = budget / num
+        result_list.append(result)
+    except:
+        print("Error occurred")
+print(result_list)
 # we have an access control system that uses age
 try:
     # convert user input to integer
