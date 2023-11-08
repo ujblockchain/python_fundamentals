@@ -24,11 +24,4 @@ def rec3(n):
     rec3(n - 1)
     print(f"UL - {n}")
 
-
-def rec_factorial(n):
-    if n == 0:
-        return 1
-    return n * rec_factorial(n - 1)
-
-
 rec3(3)
